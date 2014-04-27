@@ -1,0 +1,6 @@
+getwd()
+source("run_analysis.R")
+run_analysis
+run_analysis("../UCI HAR Dataset/")
+source("run_analysis.R")
+run_analysis()
