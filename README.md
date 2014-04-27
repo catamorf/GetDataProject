@@ -8,6 +8,7 @@ This repo contains the run_analisys.R file with run_analisys() function.
 Takes data from UCI HAR Dataset and creates new, independent tidy data set with the average of each variable for each activity and each subject. 
 We assume, that dataset is already downloaded and unzipped into some folder (directory)
 Also we assume, that filenames are unchanged and directory structures remains as from original assignment.
+I decided not to implement testing, if files exists and other tests, required for real project, as this is not the goal of this course.
 
 **Usage:**
 run_analisys(dir='./')
