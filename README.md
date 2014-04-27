@@ -16,11 +16,18 @@ run_analisys(dir='./')
 dir  	character string, path to the directory with UCI HAR Dataset. By default function will look for data files in current directory
 
 **Details:**
-According to assignment for "Getting and Cleaning Data Project" this script do following:
-1. Takes training and test sets of preprocessed data and merge it
-2. Labels all variables with descriptive names (from features.txt)
+According to the assignment for "Getting and Cleaning Data Project" this script does following:
+
+1. Takes training and test sets of preprocessed data and merge it.
+
+2. Labels all variables with descriptive names (from features.txt).
+
 3. Extracts only the measurements on the mean and standard deviation for each measurement.
+
 4. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-5. Lables activities with descriptive names (from activity_labels.txt)
-6. Writes new tidy dataset into MeansByActivityAndSubject.txt file in directory by parameter 'dir'
+
+5. Lables activities with descriptive names (from activity_labels.txt).
+
+6. Writes new tidy dataset into MeansByActivityAndSubject.txt file in directory by parameter 'dir’.
+
 
